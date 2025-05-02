@@ -26,10 +26,12 @@ The pipeline blends both the **text prompts** and the **images** to produce a co
 2. Define your poem:
 ```bash
 poem = [
-    "Under the pale moonlight, silence hums in silver tones.",
-    "Shadows dance softly on the lake’s shimmering skin.",
-    "The forest breathes, ancient and patient.",
-    "Time dissolves into golden dust."
+    "Under the glow of a lonely moon,"
+     "Trees dance to the rhythm of the wind.",
+     "The sun shines in my life,",
+     "And yet I walk in the rain,",
+     "rain that saws me, bends me, empties me,",
+     "humic weather that tires and wrinkles me."
 ]
 ```
 3. The notebook will:
@@ -40,4 +42,4 @@ poem = [
 ---
 
 ## Example Output  
-![preview](exemple.mp4)
+![preview](exemple.gif)
