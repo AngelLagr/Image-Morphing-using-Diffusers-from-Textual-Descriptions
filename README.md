@@ -6,7 +6,7 @@ The pipeline blends both the **text prompts** and the **images** to produce a co
 ---
 
 ## Project Structure  
-- **`text_to_animation.ipynb`**: a notebook to generate the full video from a list of textual prompts  
+- **`image_morphing.ipynb`**: a notebook to generate the full video from a list of textual prompts  
 - **`exemple.mp4`** : an exemple of what this notebook can produce 
 
 ---
