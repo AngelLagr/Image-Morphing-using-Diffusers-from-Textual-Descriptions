@@ -1,4 +1,4 @@
-# Text-to-fluid-Animation-Diffusers
+# Image Morphing Using Diffusers from Textual Descriptions
 Prompt and image interpolation using Diffusers to create smooth animations from a text.
 
 The pipeline blends both the **text prompts** and the **images** to produce a coherent morphing effect, creating an artistic video that evolves from one verse to the next.
