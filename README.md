@@ -6,7 +6,7 @@ The pipeline blends both the **text prompts** and the **images** to produce a co
 ---
 
 ## Project Structure  
-- **`text_to_animation.ipynb`**: Colab-ready notebook to generate the full video from a list of textual prompts  
+- **`text_to_animation.ipynb`**: a notebook to generate the full video from a list of textual prompts  
 - **`exemple.mp4`** : an exemple of what this notebook can produce 
 
 ---
@@ -23,7 +23,7 @@ The pipeline blends both the **text prompts** and the **images** to produce a co
 
 ## How to Run  
 1. Open the notebook in [Google Colab](https://colab.research.google.com)
-2. Define your poem:
+2. Define your text (for exemple here a poem) :
 ```bash
 poem = [
     "Under the glow of a lonely moon,"
@@ -36,7 +36,7 @@ poem = [
 ```
 3. The notebook will:
    - Generate an image for each line
-   - Create smooth interpolations between each using prompt blending + `img2img`
+   - Create interpolations between each using line using blending + `img2img`
    - Export a final video: `video.mp4`
 
 ---
